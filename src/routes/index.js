@@ -10,7 +10,10 @@ const Routes = () => {
   return (
     <>
       <NavigationContainer>
-        <Stack.Navigator headerMode="false">
+        <Stack.Navigator
+          screenOptions={{
+            headerShown: false,
+          }}>
           <Stack.Screen name="Transaction" component={TransactionScreen} />
           <Stack.Screen name="Detail" component={DetailScreen} />
         </Stack.Navigator>
