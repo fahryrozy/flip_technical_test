@@ -11,7 +11,6 @@ import {style} from '../Detail/style';
 
 const DetailScreen = ({route, navigation}) => {
   const {data} = route.params;
-  console.log('data -> ', data);
   const copyToClipboard = text => {
     Clipboard.setString(text);
   };
