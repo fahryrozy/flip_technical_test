@@ -11,6 +11,7 @@ export const style = StyleSheet.create({
     paddingVertical: 5,
     width: width,
     height: height,
+    color: '#000',
   },
   title: {
     width: '100%',
@@ -22,6 +23,7 @@ export const style = StyleSheet.create({
     flexDirection: 'row',
   },
   titleText: {
+    color: '#000',
     fontWeight: 'bold',
     fontSize: 18,
   },
@@ -41,6 +43,7 @@ export const style = StyleSheet.create({
   headingText: {
     fontWeight: 'bold',
     fontSize: 18,
+    color: '#000',
   },
   closeButton: {
     color: '#fa6837',
@@ -68,14 +71,17 @@ export const style = StyleSheet.create({
     alignSelf: 'flex-start',
   },
   bankLabel: {
+    color: '#000',
     fontWeight: 'bold',
     fontSize: 18,
   },
   label: {
+    color: '#000',
     fontWeight: 'bold',
     fontSize: 16,
   },
   info: {
+    color: '#000',
     fontWeight: 'bold',
     fontSize: 14,
   },
